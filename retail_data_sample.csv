@@ -1,0 +1,13 @@
+Date,Category,Product,Price,Quantity Sold,Total Sales
+2025-12-01,Electronics,Smartphone,15000,10,150000
+2025-12-01,Clothing,T-Shirt,500,20,10000
+2025-12-01,Groceries,Milk,50,100,5000
+2025-12-02,Electronics,Laptop,45000,5,225000
+2025-12-02,Clothing,Jeans,1200,15,18000
+2025-12-02,Groceries,Bread,30,50,1500
+2025-12-03,Electronics,Headphones,2000,25,50000
+2025-12-03,Clothing,Jacket,2500,8,20000
+2025-12-03,Groceries,Eggs,6,200,1200
+2025-12-04,Electronics,Smartwatch,8000,12,96000
+2025-12-04,Clothing,Sneakers,3500,7,24500
+2025-12-04,Groceries,Rice,40,150,6000
