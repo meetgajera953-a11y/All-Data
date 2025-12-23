@@ -105,7 +105,9 @@ UPDATE Orders SET TotalAmount=65000 WHERE OrderID=101;
 DELETE FROM Orders WHERE OrderID=105;
 
 -- 9
-SELECT * FROM Orders WHERE OrderDate >= '2024-02-01';
+SELECT * 
+FROM Orders 
+WHERE OrderDate >= CURDATE() - INTERVAL 30 DAY;
 
 -- 10
 SELECT MAX(TotalAmount) FROM Orders;
@@ -149,3 +151,4 @@ LIMIT 3;
 
 -- 22
 SELECT COUNT(ProductID) FROM OrderDetails WHERE ProductID=1;
+
